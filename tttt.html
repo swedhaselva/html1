@@ -1,0 +1,47 @@
+ <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Easy and professional web design">
+	  <meta name="keywords" content="web design, affordable web design, professional web design">
+  	<meta name="author" content="Brad Traversy">
+   
+
+using sidebar:
+
+   <aside id="sidebar">
+          <div class="dark">
+            <h3>Get A Quote</h3>
+            <form class="quote">
+  						<div>
+  							<label>Name</label><br>
+  							<input type="text" placeholder="Name">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Email Address">
+  						</div>
+  						<div>
+  							<label>Message</label><br>
+  							<textarea placeholder="Message"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Send</button>
+					</form>
+          </div>
+        </aside>
+
+
+
+
+
+
+        @media(max-width: 768px){
+            header #branding,
+            header nav,
+            header nav li,
+            #newsletter h1,
+            #newsletter form,
+            #boxes .box,
+            article#main-col,
+            aside#sidebar{
+              float:none;
+              text-align:center;
+              width:100%;
+            }
